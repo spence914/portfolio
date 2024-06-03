@@ -24,9 +24,9 @@ const config: GatsbyConfig = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
           { name: `About`, slug: `/about` },
+          { name: `Projects`, slug: `/projects` },
+          { name: `Contact`, slug: `/contact` },
         ],
       },
     },
