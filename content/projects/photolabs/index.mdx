@@ -5,13 +5,41 @@ slug: "/Photolabs"
 category: "web app"
 color: "#82726b"
 cover: "./mainpage.png"
-date: "2020-07-02"
+date: "2024-03-01"
 ---
 
-This project, as part of Lighthouse Labs web development program, is a demonstration of React-based single-page application (SPA) that allows users to view photos in different contexts. API calls to a local backend populate both the photos being displayed and the topics that they are sorted under.
+import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { SiSass, SiWebpack, SiExpress, SiPostgresql } from 'react-icons/si';
+import '../../../global.css'; //
 
-On the initial page load all photos will be displayed, individual photos can be selected and displayed in a larger view in the modal.
 
-Additionally photos can be 'liked' from anywhere in the app. Likes will persist throughout page navigation, and no matter what photos or topics are viewed.
+Photolabs is a React-based single-page application (SPA) that allows users to view and interact with photos sorted under different topics. The app makes API calls to a local backend to populate the photos and their categories. It also features persistent likes and modal photo viewing. 
 
-To function properly the backend must be initialized as per the README instructions, then both backend and frontend servers must be running.
+## Stack 
+
+<div className="icon-grid">
+  <div className="icon-item">
+    <FaReact size={55} />
+    <p>React</p>
+  </div>
+  <div className="icon-item">
+    <SiSass size={55} />
+    <p>SASS</p>
+  </div>
+  <div className="icon-item">
+    <SiWebpack size={55} />
+    <p>Webpack</p>
+  </div>
+  <div className="icon-item">
+    <SiExpress size={55} />
+    <p>Express</p>
+  </div>
+  <div className="icon-item">
+    <FaNodeJs size={55} />
+    <p>Node</p>
+  </div>
+  <div className="icon-item">
+    <SiPostgresql size={55} />
+    <p>PostgreSQL</p>
+  </div>
+</div>

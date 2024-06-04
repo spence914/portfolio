@@ -4,13 +4,35 @@ shortTitle: "tweeter"
 category: "web app"
 color: "white"
 cover: "./tweeter-desktop-view.png"
-date: "2020-07-01"
+date: "2023-12-01"
 ---
 
-Tweeter is a simple, single-page Twitter clone, using Express, jQuery, and Ajax.
+import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { SiExpress, SiJquery } from 'react-icons/si';
+import '../../../global.css';
 
-On this app users can submit tweets provided they are within the character limit, they are then dynamically rendered and displayed above the older tweets.
+Tweeter is a simple, single-page Twitter clone where users can submit tweets provided they are within the character limit, they are then dynamically rendered and displayed above the older tweets.
 
-The page features responsive design elements and is desigend to look good on both mobile and desktop.
+The page features responsive design elements, a live character counter, and a scroll-to-top button.
 
-Some additional features include a toggle for displaying and hiding the tweet submission form, a 'scroll-to-top' button that only appears once the tweet submission form has been scrolled past, and SASS driven CSS.
+## Stack
+
+<div className="icon-grid">
+  <div className="icon-item">
+    <FaReact size={55} />
+    <p>React</p>
+  </div>
+  <div className="icon-item">
+    <SiExpress size={55} />
+    <p>Express</p>
+  </div>
+  <div className="icon-item">
+    <FaNodeJs size={55} />
+    <p>Node.js</p>
+  </div>
+  <div className="icon-item">
+    <SiJquery size={55} />
+    <p>jQuery</p>
+  </div>
+
+</div>
