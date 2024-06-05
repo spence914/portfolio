@@ -1,10 +1,9 @@
 {
   "private": true,
-  "name": "jodie",
-  "description": "Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.",
-  "version": "0.1.9",
-  "author": "LekoArts",
-  "license": "0BSD",
+  "name": "slportfolio",
+  "description": "As simple web dev portfolio site based on the Gatsby JS theme Jodie by LekoArts",
+  "version": "1.0",
+  "author": "spencer_lewis",
   "starter-name": "gatsby-starter-portfolio-jodie",
   "scripts": {
     "build": "gatsby build",

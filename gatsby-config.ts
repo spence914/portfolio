@@ -5,9 +5,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.mjs
+    
     siteTitle: `Spencer Lewis`,
     siteTitleAlt: `Spencer Lewis webDev portfolio`,
     siteHeadline: `A portfolio website for Spencer Lewis`,
@@ -21,7 +19,6 @@ const config: GatsbyConfig = {
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-jodie`,
-      // See the theme's README for all available options
       options: {
         navigation: [
           { name: `About`, slug: `/about` },
