@@ -11,8 +11,8 @@ const config: GatsbyConfig = {
     siteTitle: `Spencer Lewis`,
     siteTitleAlt: `Spencer Lewis webDev portfolio`,
     siteHeadline: `A portfolio website for Spencer Lewis`,
-    siteUrl: `https://jodie.lekoarts.de`,
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    siteUrl: `https://spenny.net`,
+    siteDescription: `Web dev portfolio site`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `Spencer Lewis`,
@@ -39,9 +39,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+        name: `Spencer`,
+        short_name: `Spencer`,
+        description: `My Web Dev Portfolio Site`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
