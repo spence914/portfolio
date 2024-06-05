@@ -33,7 +33,7 @@ const Footer = ({ bg }: { bg: string }) => {
       }}
     >
       <div>
-        {new Date().getFullYear()} by {"Spencer Lewis"}.
+        {new Date().getFullYear()} by Spencer Lewis
       </div>
       
     </footer>

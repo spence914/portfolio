@@ -28,6 +28,7 @@ const config: GatsbyConfig = {
           { name: `Projects`, slug: `/projects` },
           { name: `Contact`, slug: `/contact` },
         ],
+        mdx: true,
       },
     },
     {
