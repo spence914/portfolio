@@ -13,7 +13,7 @@ const Navigation = ({ bg }: { bg: string }) => {
       aria-label="Primary Navigation"
       sx={{
         position: 'relative',
-        right: '-17px',
+        right: [0,0,'-17px', '-17px'],
         a: {
           color: readableColor(bg),
           textDecoration: `none`,
